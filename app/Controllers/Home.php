@@ -2,10 +2,16 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class SelamatDatang extends BaseController
 {
-    public function index()
+    public function hal_awa()
     {
-        return view('welcome_message');
+        return 'hello saya belajar CI4';
+    }
+    public function beranda_login(){
+        return view('halaman/login');
+    }
+    public function daftar_member(){
+        return view('halaman/daftar_member');
     }
 }
